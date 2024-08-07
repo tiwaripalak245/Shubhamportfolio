@@ -1,0 +1,141 @@
+
+.download-button {
+    background-color: #f3f4f6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .download-button:hover {
+    background-color: #e5e7eb;
+  }
+
+  
+  .avatar .rounded-circle img {
+    border-radius: 50%;
+  }
+  
+  .btn {
+    margin-top: 1rem;
+  }
+
+@media (max-width: 480px) {
+
+
+    .avatar .w-20 {
+      width: 4rem;
+      height: 4rem;
+    }
+
+    .text-center .font-bold {
+      font-size: 1.2rem;
+    }
+
+    .text-center .text-base-content {
+      font-size: 0.9rem;
+    }
+
+    .text-center .text-opacity-60 {
+      font-size: 0.8rem;
+    }
+
+    .btn {
+      font-size: 0.7rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+
+
+    .avatar .w-20 {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    .text-center .font-bold {
+      font-size: 1.5rem;
+    }
+
+    .text-center .text-base-content {
+      font-size: 1rem;
+    }
+
+    .text-center .text-opacity-60 {
+      font-size: 0.9rem;
+    }
+
+    .btn {
+      font-size: 0.8rem;
+      padding: 0.7rem 1.2rem;
+    }
+
+      .download-button {
+        font-size: 0.7rem;
+        padding: 0.5rem 1rem;
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+
+    .avatar .w-20 {
+      width: 6rem;
+      height: 6rem;
+    }
+
+    .text-center .font-bold {
+      font-size: 1.8rem;
+    }
+
+    .text-center .text-base-content {
+      font-size: 1.2rem;
+    }
+
+    .text-center .text-opacity-60 {
+      font-size: 1rem;
+    }
+
+    .btn {
+      font-size: 0.9rem;
+      padding: 0.8rem 1.5rem;
+    }
+    .download-button {
+        font-size: 0.8rem;
+        padding: 0.7rem 1.2rem;
+      }
+  
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+
+    .avatar .w-20 {
+      width: 7rem;
+      height: 7rem;
+    }
+
+    .text-center .font-bold {
+      font-size: 2rem;
+    }
+
+    .text-center .text-base-content {
+      font-size: 1.3rem;
+    }
+
+    .text-center .text-opacity-60 {
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      font-size: 1rem;
+      padding: 1rem 2rem;
+    }
+    .download-button {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+      }
+  }
